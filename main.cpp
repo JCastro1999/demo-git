@@ -3,5 +3,10 @@
 using namespace std;
 
 int main() {
-    cout << "Hola Como estas?" << endl;
+    int n  = 10;
+    if(n == 10){
+        cout << "Hola Como estas?" << endl;
+    } else {
+        cout << "Nada" << endl;
+    }
 }
